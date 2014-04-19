@@ -15,6 +15,8 @@
 :status:
   :fg: 255
   :bg: 238
+  :attrs:
+    - bold
 
 :twiddle:
   :fg: 60
@@ -66,9 +68,13 @@
   :fg: 193
   :bg: 236
   :highlight: index_new_highlight
+  :attrs:
+    - bold
 :index_new_highlight:
   :fg: 193
   :bg: 238
+  :attrs:
+    - bold
 
 # text snipped displayed next to the subject
 :snippet:
@@ -93,17 +99,25 @@
   :fg: 225
   :bg: 236
   :highlight: tagged_highlight
+  :attrs:
+    - bold
 :tagged_highlight:
   :fg: 225
   :bg: 238
+  :attrs:
+    - bold
 # the one-character widget '*' that gets displayed when a message is starred
 :starred:
   :fg: 203
   :bg: 236
   :highlight: starred_highlight
+  :attrs:
+    - bold
 :starred_highlight:
   :fg: 203
   :bg: 238
+  :attrs:
+    - bold
 
 # subject of a starred message
 :index_starred:
@@ -149,18 +163,26 @@
   :fg: 203
   :bg: 236
   :highlight: starred_patina_highlight
+  :attrs:
+    - bold
 :starred_patina_highlight:
   :fg: 203
   :bg: 238
+  :attrs:
+    - bold
 
 # the single star character, alternating color
 :alternate_starred_patina:
   :fg: 203
   :bg: 236
   :highlight: alternate_starred_patina_highlight
+  :attrs:
+    - bold
 :alternate_starred_patina_highlight:
   :fg: 203
   :bg: 238
+  :attrs:
+    - bold
 
 # line that says "an unreceived message" in thread-view-mode
 :missing_message:
@@ -258,9 +280,13 @@
   :fg: 193
   :bg: 236
   :highlight: labellist_new_highlight
+  :attrs:
+    - bold
 :labellist_new_highlight:
   :fg: 193
   :bg: 238
+  :attrs:
+    - bold
 
 # ======================================
 # misc
@@ -312,9 +338,13 @@
   :fg: 203
   :bg: 236
   :highlight: horizontal_selector_selected_highlight
+  :attrs:
+    - bold
 :horizontal_selector_selected_highlight:
   :fg: 203
   :bg: 238
+  :attrs:
+    - bold
 
 :horizontal_selector_unselected:
   :fg: 252
@@ -328,6 +358,8 @@
 :completion_character:
   :fg: 236
   :bg: 203
+  :attrs:
+    - bold
 
 
 # ======================================
