@@ -52,6 +52,15 @@
   :fg: 242
   :bg: 238
 
+# in index views the @ symbol
+:with_attachment:
+    :fg: 225
+    :bg: 236
+    :highlight: with_attachment_highlight
+:with_attachment_highlight:
+    :fg: 225
+    :bg: 238
+
 :size_widget:
   :fg: 250
   :bg: 236
@@ -75,6 +84,31 @@
   :bg: 238
   :attrs:
     - bold
+
+:from_old:
+  :highlight: from_highlight
+  :fg: 255
+  :bg: 236
+:from_highlight:
+  :fg: 255
+  :bg: 238
+
+:from_new:
+  :highlight: from_new_highlight
+  :fg: 193
+  :bg: 236
+:from_new_highlight:
+  :fg: 193
+  :bg: 238
+
+:from_starred:
+  :highlight: from_starred_highlight
+  :fg: 203
+  :bg: 236
+
+:from_starred_highlight:
+  :fg: 203
+  :bg: 238
 
 # text snipped displayed next to the subject
 :snippet:
